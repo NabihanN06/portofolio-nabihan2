@@ -567,6 +567,113 @@
   .slider .dots li.active {
     width: 30px;
   }
+
+  .my-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--Zinc-800);
+    padding: 80px 10px;
+    gap: 30px;
+  }
+  
+  .container6 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+    padding: 25px;
+    background-color: var(--Zinc-100);
+    border-radius: 20px;
+    color: var(--Primary-White);
+    box-shadow: 0px 0px 25px var(--Primary-White);
+  } 
+  
+  .isi-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .isi-form input {
+    padding: 15px;
+    width: 400px;
+    background-color: var(--Primary-White);
+    color: var(--Primary-Black);
+    border: 3px solid var(--Primary-White);
+    border-radius: 10px;
+  }
+  
+  .isi-form textarea {
+    padding: 15px;
+    width: 400px;
+    height: 150px;
+    background-color: var(--Primary-White);
+    color: var(--Primary-Black);
+    border: 3px solid var(--Primary-White);
+    border-radius: 10px;
+  }
+  
+  .isi-form ::placeholder {
+    color: var(--Zinc-500);
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  .contact-buttons button {
+    background-color: var(--Zinc-300);
+    color: var(--Primary-Black);
+    border: 5px solid var(--Zinc-300);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    z-index: -2;
+  }
+  
+  .contact-buttons button:hover {
+    background-color: var(--Primary-Black);
+    border: 5px solid var(--Primary-Black);
+    color: var(--Primary-White);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .komen-info {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .button-box {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+  
+  .button-box a {
+    padding: 12px;
+    border: 2px solid var(--Primary-White);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Primary-White);
+    color: var(--Primary-Black);
+  }
+  
+  .button-box a svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .button-box a:hover {
+    background-color: var(--Primary-Black);
+    color: var(--Primary-White);
+    border: 2px solid var(--Primary-Black);
+    transition: all 0.3s ease-in-out;
+  }
   
   .foto-foto {
     background-color: var(--Zinc-800);
@@ -693,9 +800,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 75px;
-    padding-bottom: 190px;
     background-color: var(--Zinc-100);
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 260px;
+    padding-bottom: 270px;
+    background-color: var(--Zinc-100);
+    background-image: url(image/lemon3.jpeg);
+    background-size: cover;
   }
   
   .container0 {
@@ -710,7 +826,7 @@
     /* background-color: var(--Primary-White); */
     border-radius: 10px;
     /* width: 1000px; */
-    height: 250px;
+    height: 380px;
   }
   
   .text-apaaja1 h2 {
@@ -975,7 +1091,7 @@
   
   .container5 {
     width: 370px;
-    height: 1125px;
+    height: 1170px;
     display: flex;
     flex-direction: column;
     padding: 15px;
@@ -1148,6 +1264,115 @@
   }
   .slider .dots li.active {
     width: 30px;
+  }
+
+  .my-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--Zinc-800);
+    padding: 80px 10px;
+    gap: 30px;
+  }
+  
+  .container6 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background-color: var(--Zinc-800);
+    border-radius: 20px;
+    color: var(--Primary-White);
+    box-shadow: none;
+  } 
+  
+  .isi-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .isi-form input {
+    padding: 15px;
+    width: 400px;
+    background-color: var(--Primary-White);
+    color: var(--Primary-Black);
+    border: 3px solid var(--Primary-White);
+    border-radius: 10px;
+  }
+  
+  .isi-form textarea {
+    padding: 15px;
+    width: 400px;
+    height: 150px;
+    background-color: var(--Primary-White);
+    color: var(--Primary-Black);
+    border: 3px solid var(--Primary-White);
+    border-radius: 10px;
+  }
+  
+  .isi-form ::placeholder {
+    color: var(--Zinc-500);
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  .contact-buttons button {
+    background-color: var(--Zinc-300);
+    color: var(--Primary-Black);
+    border: 5px solid var(--Zinc-300);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .contact-buttons button:hover {
+    background-color: var(--Primary-Black);
+    border: 5px solid var(--Primary-Black);
+    color: var(--Primary-White);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .komen-info {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: end;
+  }
+  
+  .button-box {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .button-box a {
+    padding: 12px;
+    border: 2px solid var(--Primary-White);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Primary-White);
+    color: var(--Primary-Black);
+  }
+  
+  .button-box a svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .button-box a:hover {
+    background-color: var(--Primary-Black);
+    color: var(--Primary-White);
+    border: 2px solid var(--Primary-Black);
+    transition: all 0.3s ease-in-out;
   }
   
   .foto-foto {
